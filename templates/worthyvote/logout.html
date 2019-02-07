@@ -1,0 +1,19 @@
+{% extends 'worthyvote/base.html'%}
+
+{% block body %}
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="panel-footer">
+                            You have successfully logged out! <a href='{% url 'login' %}'>Login again?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
